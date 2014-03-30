@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>File Protector</title>
+	<link rel="stylesheet" type="text/css" href="styles.css" / >
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="verify.js"></script>
+	
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="boxHeader">Send Company File</div>
+
+        <form action="upload.php" method="POST" enctype="multipart/form-data">
+           <p>Assigned Passcode: <input type="password" name="password" /></p>
+	       <p>Browse File: <input type="file" name="file" /></p>
+	       <input type="submit" name="submit" value="Upload" />  
+        </form>
+        
+</div>
+
+
+<div class="container">
+    <div class="boxHeader">Download Company File</div>
+
+       <form action="download.php" method="POST" enctype="multipart/form-data" class="downloadForm">
+           <p>Assigned Passcode: <input type="password" name="password" /></p>
+	       <p>File Name: <input type="text" name="fileDownload" /></p>
+	       <input type="submit" name="submit" value="Download" />  
+        </form>
+
+
+</div>
+	
+</body>
+</html>

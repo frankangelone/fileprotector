@@ -1,0 +1,21 @@
+/**** Upload Form Styles ***/
+
+.container {
+    background: blue;
+    color: white;
+    border: 4px solid black;
+    border-radius: 4px;
+    margin: 0 auto;
+    padding: 10px; 
+    width: 220px;
+   
+}
+
+.boxHeader {
+    font-family: Calibri, Helvetica, Arial, Sans-Serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
