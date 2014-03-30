@@ -5,10 +5,7 @@ Mission: To Send / Receive Files To / From A Password Protected Shared Folder.
 
 Development Stack (Currently runs on):
 
-PHP 5.3.6
-Apache HTTP Server 2.2.21
-MySQL 5.5.9
-phpMyAdmin 3.3.9.2
+PHP 5.3.6, Apache HTTP Server 2.2.21, MySQL 5.5.9, phpMyAdmin 3.3.9.2
 
 Suggestions:  Use MAMP, WAMP, or XAMP to get up and running.  
 
